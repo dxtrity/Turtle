@@ -67,3 +67,6 @@ git clone https://github.com/dxtrity/Turtle.git .
 ```
 
 And if all goes well. You should be fine. I hope.
+
+## Usage
+The `build.ps1` script builds the executable inside of the build folder. Make sure that you have a `test.tl` in that folder for running and testing expressions. The `test.ps1` script just runs the executable with the correct file. Feel free to edit these to your liking.
