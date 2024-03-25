@@ -21,39 +21,49 @@ b = 10          // can be any word letter etc.
 ```
 
 ## Language Implementation
+**Basic Functionality**
 - [x] Addition
 - [x] Subtraction
 - [x] Multiplication
 - [x] Division
 - [x] Basic Variables
+- [ ] Variable Expressions
 - [ ] Parentheses
+
+**Extended Functionality**
+- [x] Variable Mutability
+- [ ] Loops
 
 ## Known Issues
 There is a lot of issue with the interpreter at the moment. Such as:
 
-Variable Mutability
- : This isn't implemented
+**~~Variable Mutability~~**<br>
+This isn't implemented. You can't reassign variables.
 
-Variable Expressions
- : Can't use mathematical expressions on just variables `x + b` returns an error
+**Variable Expressions**<br>
+Can't use mathematical expressions on just variables `x + b` returns an error.
 
-Any type of Parentheses Operations
- : They just don't work
+**Any type of Parentheses Operations**<br>
+They just don't work.
 
 ## Installation
 To install and build this you will need to install the latest version of **Go**.
 The repo has a build script for **Windows PowerShell** as it is my primary shell.
 I will add a build script for Linux and Mac in the future if I do anything with this.
 
+1. Firstly, clone the repo via:<br>
 ```ps1
-git clone reponame .
+git clone https://github.com/dxtrity/Turtle.git .
 ```
 
-```./build.ps1```
+2. Then run:<br>
+```ps1
+./build.ps1
+```
 
-Create a `test.tl` file
-Write some expressions
+3. Finally, run this script:
+```ps1
+./test.ps1
+```
 
-```./test.ps1```
-
-And you should be fine. I hope.
+And if all goes well. You should be fine. I hope.
